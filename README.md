@@ -16,8 +16,8 @@ The present Apps only give geeralized option about crops and farmers but our app
 This app also gives risk management based on cyclone and flood forecast from Govt. of India website.
 
 ### Images 
-![First](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/1.png)
-![Second](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/2.png)
-![Third](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/3.png)
-![Fourth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/4.png)
+![First](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/1.png)
+![Second](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/2.png)
+![Third](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/3.png)
+![Fourth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/4.png)
 
