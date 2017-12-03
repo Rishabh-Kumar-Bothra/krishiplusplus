@@ -13,12 +13,9 @@ The present Apps only give geeralized option about crops and farmers but our app
 
 It also gives farmer profile analysis to directly to retailers to buy their products which eleminates middlemen, removing another big hurdle in agriculture. This app also gives risk management based on cyclone and flood forecast from Govt. of India website.
 
-### Video
-[Video](https://youtu.be/Bsy_WpDCNYg)
-
 ### Images 
-![First](https://github.com/rishabhc32/krishiplusplus/blob/master/2.png)
-![Second](https://github.com/rishabhc32/krishiplusplus/blob/master/3.png)
-![Third](https://github.com/rishabhc32/krishiplusplus/blob/master/4.png)
-![Fourth](https://github.com/rishabhc32/krishiplusplus/blob/master/5.png)
-![Fifth](https://github.com/rishabhc32/krishiplusplus/blob/master/6.png)
+![First](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/1.png)
+![Second](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/2.png)
+![Third](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/3.png)
+![Fourth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/4.png)
+
