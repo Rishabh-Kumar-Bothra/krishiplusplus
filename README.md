@@ -10,7 +10,7 @@ There are various portal related to agriculture for providing solutions to probl
 
 The present Apps only give geeralized option about crops and farmers but our app gives targeted ressult to farmers analysing their **S**oil **H**ealth **C**ard and predicting their yield per hectare if they follow our suggestion. 
 
-**Simply speaking our app leverages Soil Health Card information for farmers. The Soil Health card, issued by Govt. of India does not have much useful for information that farmers can directly use. Our app uses SH info and provides info like Variety, inter-crop, seed spacing and sowing period. Using these info we predict the yield and predicted profit to farmer using random forest model. Additionally we use low cost, low powered temp and humidity sensors deployed in the field for better real time analysis and prediction.**
+**Simply speaking our app leverages Soil Health Card information for farmers. The Soil Health card, issued by Govt. of India does not have much useful for information that farmers can directly use. Our app uses SH info and provides info like Variety, inter-crop, seed spacing and sowing period. Using these info we predict the yield and predicted profit to farmer using random forest model. Additionally we use low cost, low powered temp and humidity sensors deployed in the field for better real time analysis and prediction with cyclone or flood forecast.**
  
 This app also gives risk management based on cyclone and flood forecast from Govt. of India website.
 
@@ -21,3 +21,13 @@ This app also gives risk management based on cyclone and flood forecast from Gov
 ![Third](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/3.png)
 ![Fourth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/4.png)
 
+### Crop Yield Prediction using Machine learning
+We used **random forest** algorithm for yield prediction and using the predicted yield we can found forecasted profit. As the data is too much scattered, multiple linear regression gives error of 30% - 40%. Thus random forest suits best and according to many research papers. Our implemented model gave error about 10 % - 11% for predicted yield. Images shown below.
+
+![First](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s41.png)
+![Second](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s1.png)
+![Third](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s2.png)
+![Fourth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s3.png)
+
+### IOT for better prediction
+We use low cost, low powered temperature and soil humidity sensor for better yield prediction.
