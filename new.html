@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>new hello</title>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> 
+    <script type="text/javascript" src="new.js"></script>   
+  
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+    	html, body, .my-wrapper {
+  			height: 100%;
+		}
+		.material-icons.greeen { 
+			color: #4caf50; 
+		}
+		/*
+		.input-field input.valid {
+  		border: 2px solid black;
+		}*/
+		
+    </style>
+</head>
+<body class="grey lighten-4">
+	<div class="my-wrapper valign-wrapper row center-align">
+       <div class="card-panel col s10 offset-s1 m8 offset-m2 l6 offset-l3 z-depth-3 ">
+       		<img class="responsive-image" src="https://i.imgur.com/7a8RUS1.jpg">
+       		<form action="https://api.combatant32.hasura-app.io/query" method="get">	
+				<div class="row">
+					<div class="input-field offset-l2 col l8 offset-m2 m8 s12">
+						<i id="shicon" class="material-icons prefix">dock</i>
+          				<input id="shnumber" type="text" oninvalid="changeColor()" class="validate shnum" required pattern="[0-9]{5}" minlength="5" maxlength="5" name="shnumber">
+          				<label for="sh-number">S.H. Number</label>
+        			</div>
+        		</div>
+        		<div class="row">
+        			<div class="input-field offset-l2 col l8 offset-m2 m8 s12 ">
+        				<i class="material-icons prefix">fiber_pin</i>
+          				<input id="pincode" type="text" class="validate" required pattern="[0-9]{6}" minlength="6" maxlength="6" name="pincode">
+          				<label for="pincode" data-error="Wrong">PIN Code</label>
+	        		</div>
+	        	</div>
+        	    <div class="row center-align ">
+ 					<button class="btn waves-effect waves-light green col m4 offset-m4  offset-s3 s6 hoverable" type="submit" name="submit-button">Submit
+    				<i class="material-icons right">chevron_right</i>
+  					</button>
+        		</div>
+        	</form>
+       </div>
+    </div>
+</body>
+</html>
