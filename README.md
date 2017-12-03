@@ -1,4 +1,4 @@
-# krishiplusplus
+# Krishi++
 Krishi++ - Connecting farmers
 
 There are various portal related to agriculture for providing solutions to problem of farmers, but there are generalized solutions given to them mostly. Also, sometimes apps are dealing with one or two components of farming only. So we are trying to integrate all these components int one and give detailed and scheduled solutions to farmers, integrating packages of practices. In this application real time info will be given to farmers from feild preparation to selling of their product.
