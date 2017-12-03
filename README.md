@@ -24,7 +24,7 @@ This app also gives risk management based on cyclone and flood forecast from Gov
 ### Crop Yield Prediction using Machine learning
 We used **random forest** algorithm for yield prediction and using the predicted yield we can found forecasted profit. As the data is too much scattered, multiple linear regression gives error of 30% - 40%. Thus random forest suits best and according to many research papers. Our implemented model gave error about 10 % - 11% for predicted yield. Images shown below.
 
-![First](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s41.png)
+![First](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s4.png)
 ![Second](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s1.png)
 ![Third](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s2.png)
 ![Fourth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s3.png)
