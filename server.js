@@ -1,59 +1,69 @@
 var express = require('express');
-var app = express();
 var fetchAction =  require('node-fetch');
+var mustacheExpress = require('mustache-express');
+
+var app = express();
 
 var url = "https://data.combatant32.hasura-app.io/v1/query";
-
-app.use(express.static('public'));	
-
-app.get('/', function(req, res){
-	res.sendFile( __dirname + "/" + "index.html" );
-})
-
 var requestOptions = {
     "method": "POST",
     "headers": {
         "Content-Type": "application/json"
     }
 };
-
 var body = {
     "type": "select",
     "args": {
         "table": "krishiplusplus",
         "columns": [
-            "shnumber"
+            "shnumber",
+            "yield"
         ]
     }
 };
 
+app.engine('mustache', mustacheExpress());
+app.set('view engine', 'mustache');
+app.set('views', __dirname + '/views');
+
+app.use(express.static('public'));	
+
+/*app.get('/', function(req, res){
+	res.sendFile( __dirname + "/" + "index.html" );
+})*/
+
 app.get('/query', function (req, res) {
-   // Prepare output in JSON format
-   response = {
-      shnumber:req.query.shnumber,
-      pincode:req.query.pincode
-   };
-   res.sendFile( __dirname + "/" + "index1.html" );
-   console.log(response);
-   res.end(JSON.stringify(response.pincode));
-	
-   requestOptions.body = JSON.stringify(body);
 
-fetchAction(url, requestOptions)
-.then(function(response) {
-	return response.json();
-})
-.then(function(result) {
-	console.log(first);
-})
-.catch(function(error) {
-	console.log('Request Failed:' + error);
-});
+    response = {
+        shnumber:req.query.shnumber,
+        pincode:req.query.pincode
+    };
+  
+    requestOptions.body = JSON.stringify(body);
+
+    fetchAction(url, requestOptions)
+        .then(function(response) {
+        return response.json();
+    })
+    .then(function(result) {
+        var shnum = result[0].shnumber;
+        
+        if (shnum == response.shnumber) {
+            res.render('index', {
+                yield: result[0].yield
+            });
+        }
+
+    })
+    .catch(function(error) {
+        console.log('Request Failed:' + error);
+    });
+
 
 })
 
-var server = app.listen(8080, function(){
-  //var host = server.address().address
-  var port = server.address().port;
-	console.log("Example express app at port: %s", port);
+var server = app.listen(8081, function(){
+    //var host = server.address().address
+    var port = server.address().port;
+    console.log("Example express app at port: %s", port);
 })
