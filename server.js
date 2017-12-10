@@ -32,10 +32,6 @@ app.set('views', __dirname + '/views');
 
 app.use(express.static('public'));	
 
-/*app.get('/', function(req, res){
-	res.sendFile( __dirname + "/" + "index.html" );
-})*/
-
 app.get('/query', function (req, res) {
 
     var response = {
@@ -53,7 +49,7 @@ app.get('/query', function (req, res) {
     })
     .then(function(result) {
         if (result.length <= 0) {
-            res.send('Error bro');
+            res.sendFile( __dirname + "/" + "error.html" );
         } else {
             res.render('index', {
                 name: result[0].name,
