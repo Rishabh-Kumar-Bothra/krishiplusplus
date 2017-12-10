@@ -16,8 +16,7 @@ var body = {
     "args": {
         "table": "krishiplusplus",
         "columns": [
-            "shnumber",
-            "yield"
+            "*"
         ]
     }
 };
@@ -50,6 +49,15 @@ app.get('/query', function (req, res) {
         
         if (shnum == response.shnumber) {
             res.render('index', {
+                name: result[0].name,
+                crop: result[0].crop,
+                variety: result[0].variety,
+                intercrop: result[0].intercrop,
+                sowingPeriod: result[0].sowingPeriod,
+                landprep: result[0].landprep,
+                seedrate: result[0].seedrate,
+                spacing: result[0].spacing,
+                fertilizer: result[0].fertilizer,
                 yield: result[0].yield
             });
         }
