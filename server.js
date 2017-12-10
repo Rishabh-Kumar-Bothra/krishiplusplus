@@ -10,7 +10,7 @@ app.get('/', function(req, res){
 	res.sendFile( __dirname + "/" + "index.html" );
 })
 
-ar requestOptions = {
+var requestOptions = {
     "method": "POST",
     "headers": {
         "Content-Type": "application/json"
@@ -53,7 +53,7 @@ fetchAction(url, requestOptions)
 })
 
 var server = app.listen(8080, function(){
-	var host = server.address().address
-   var port = server.address().port
-	console.log("Example express app at http://%s:%s", host, port);
+  //var host = server.address().address
+  var port = server.address().port;
+	console.log("Example express app at port: %s", port);
 })
