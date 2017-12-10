@@ -38,7 +38,7 @@ app.use(express.static('public'));
 
 app.get('/query', function (req, res) {
 
-    response = {
+    var response = {
         shnumber:req.query.shnumber,
         pincode:req.query.pincode
     };
@@ -52,7 +52,7 @@ app.get('/query', function (req, res) {
         return response.json();
     })
     .then(function(result) {
-        if (result.length <= 1) {
+        if (result.length <= 0) {
             res.send('Error bro');
         } else {
             res.render('index', {
