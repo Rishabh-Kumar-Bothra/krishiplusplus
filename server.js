@@ -17,7 +17,12 @@ var body = {
         "table": "krishiplusplus",
         "columns": [
             "*"
-        ]
+        ],
+        "where": {
+            "shnumber": {
+                "$eq": ""
+            }
+        }
     }
 };
 
@@ -37,7 +42,9 @@ app.get('/query', function (req, res) {
         shnumber:req.query.shnumber,
         pincode:req.query.pincode
     };
-  
+
+    body.args.where.shnumber.$eq = response.shnumber;
+
     requestOptions.body = JSON.stringify(body);
 
     fetchAction(url, requestOptions)
@@ -45,9 +52,9 @@ app.get('/query', function (req, res) {
         return response.json();
     })
     .then(function(result) {
-        var shnum = result[0].shnumber;
-        
-        if (shnum == response.shnumber) {
+        if (result.length <= 1) {
+            res.send('Error bro');
+        } else {
             res.render('index', {
                 name: result[0].name,
                 crop: result[0].crop,
@@ -61,7 +68,7 @@ app.get('/query', function (req, res) {
                 yield: result[0].yield
             });
         }
-
+       
     })
     .catch(function(error) {
         console.log('Request Failed:' + error);
