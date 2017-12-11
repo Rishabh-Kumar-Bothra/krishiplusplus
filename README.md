@@ -55,7 +55,7 @@ We used **random forest** algorithm for yield prediction and using the predicted
 ![Fourth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s3.png)
 
 ### Flood and Cyclone forecast using web scraping
-We **scrape** government websites which provide **flood and cyclone forecast** information as there are no readily available APIs for the same. _http://india-water.gov.in/ffs/current-flood-forecast/_ provide info regarding flood forecast and _http://www.rsmcnewdelhi.imd.gov.in/index.php?lang=en_ provide info regarding cyclone forecast. These are really useful info for famer and can prevent huge losses in case of natural calamity.
+We **scrape** government websites which provide **flood and cyclone forecast** information as there are no readily available APIs for the same. _http://india-water.gov.in/ffs/current-flood-forecast/_ provide info regarding flood forecast and _http://www.rsmcnewdelhi.imd.gov.in/index.php?lang=en_ provide info regarding cyclone forecast. These are really useful info for famers and can prevent huge losses in case of natural calamity.
 
 ![First](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/f1.png)
 ![First](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/f2.png)
