@@ -62,6 +62,7 @@ app.get('/query', function (req, res) {
                 seedrate: result[0].seedrate,
                 spacing: result[0].spacing,
                 fertilizer: result[0].fertilizer,
+                state: result[0].state,
                 yield: result[0].yield,
                 flood: result[0].flood,
                 cyclone: result[0].cyclone,
