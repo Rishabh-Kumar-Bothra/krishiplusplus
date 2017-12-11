@@ -63,6 +63,8 @@ app.get('/query', function (req, res) {
                 spacing: result[0].spacing,
                 fertilizer: result[0].fertilizer,
                 yield: result[0].yield,
+                flood: result[0].flood,
+                cyclone: result[0].cyclone,
                 userimage: result[0].userimage
             });
         }

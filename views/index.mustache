@@ -84,12 +84,20 @@
  							</ul>
  						</div>
  						<div id="test3">
-  							<ul class="collapsible col s11 grey lighten-4" data-collapsible="expandable">
+  							<ul class="collapsible col s11 grey lighten-4" data-collapsible="accordion">
     						<li>
-      							<div class="collapsible-header active tooltipped grey lighten-4" data-position="right" data-delay="50" data-tooltip="Predicted yield"  ><i class="material-icons">spa</i>YIELD</div>
+      					    <div class="collapsible-header tooltipped grey lighten-4" data-position="right" data-delay="50" data-tooltip="Predicted yield"  ><i class="material-icons">spa</i>YIELD PREDICTION</div>
       							<div class="collapsible-body"><span>{{yield}}</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header tooltipped grey lighten-4" data-position="right" data-delay="50" data-tooltip="Real time flood forecast"  ><i class="material-icons">opacity</i>FLOOD FORECAST</div>
+                    <div class="collapsible-body"><span>{{flood}}</span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header tooltipped grey lighten-4" data-position="right" data-delay="50" data-tooltip="Real time cyclone forecast"  ><i class="material-icons">cached</i>CYCLONE FORECAST</div>
+                    <div class="collapsible-body"><span>{{cyclone}}</span></div>
     						</li>
- 							</ul>
+ 							  </ul>
  						</div>
  						</div>
 					</div>
