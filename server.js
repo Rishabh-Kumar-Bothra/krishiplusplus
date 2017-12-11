@@ -51,11 +51,7 @@ app.get('/query', function (req, res) {
         if (result.length <= 0) {
             res.sendFile( __dirname + "/" + "error.html" );
         } else {
-            if ( result[0].name.search('Ramesh') > -1 ){
-                var image = 'user.svg';
-            } else {
-                var image = 'user1.svg';
-            }
+            
             res.render('index', {
                 name: result[0].name,
                 crop: result[0].crop,
@@ -67,7 +63,7 @@ app.get('/query', function (req, res) {
                 spacing: result[0].spacing,
                 fertilizer: result[0].fertilizer,
                 yield: result[0].yield,
-                userimage: image
+                userimage: result[0].userimage
             });
         }
        
