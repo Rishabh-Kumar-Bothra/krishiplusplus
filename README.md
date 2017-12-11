@@ -16,10 +16,14 @@ This app also gives risk management based on cyclone and flood forecast from Gov
 
 ### Images 
 ![First](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/1.png)
-![Fifth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/5.png)
-![Second](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/2.png)
-![Third](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/3.png)
-![Fourth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/4.png)
+![Fifth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/2.png)
+![Second](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/3.png)
+![Third](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/4.png)
+![Fourth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/5.png)
+![nine](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/6.png)
+![Sixth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/7.png)
+![Seven](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/8.png)
+![Eight](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/9.png)
 
 ### Crop Yield Prediction using Machine learning
 We used **random forest** algorithm for yield prediction and using the predicted yield we can found forecasted profit. As the data is too much scattered, multiple linear regression gives error of 30% - 40%. Thus random forest suits best and according to many research papers. Our implemented model gave error about 10 % - 11% for predicted yield. Images shown below.
@@ -29,5 +33,3 @@ We used **random forest** algorithm for yield prediction and using the predicted
 ![Third](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s2.png)
 ![Fourth](https://raw.githubusercontent.com/geekychaser/krishiplusplus/master/images/s3.png)
 
-### IOT for better prediction
-We use low cost, low powered temperature and soil humidity sensor for better yield prediction.
