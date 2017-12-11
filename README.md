@@ -18,7 +18,7 @@ The present Apps only give generalized option about crops and farmers but our ap
 
 **Simply speaking our app leverages Soil Health Card information for farmers. The Soil Health card, issued by Govt. of India does not have much useful for information that farmers can directly use. Our app uses SH info and provides info like Variety, inter-crop, seed spacing and sowing period. Using these info we predict the yield and predicted profit to farmer using random forest model. We also provide real time prediction of cyclone and flood to farmers.**
 
-### Example of Soil Health Card
+#### Example of Soil Health Card
 ![SHC](http://www.soilhealth.dac.gov.in/Content/blue/soil/assets/img/slider/slider5.png)
  
 Soil Health Card is prepared by agricultural scientist under Soil Health Card scheme of Govt. of India. It contains information like the variety of crops and intercrop that can be grown on a farmers land based on its agro-climatic region and value of N,P,K ratio of farmer's land. This info is pretty rudimentary considering farmer's view.
