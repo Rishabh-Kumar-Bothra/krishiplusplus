@@ -4,6 +4,7 @@ Krishi++ - Connecting farmers
 Website Link : https://api.combatant32.hasura-app.io/
 
 **Note**: _The website is not yet optimized for mobile devices(due to time constraints) and may give UI glitches on mobile devices. It works real fine on tablet or dektop computers._ 
+
 **Note**: When entering the SH number for website use **'93456'** or **'21234'** and any **random pincode**.
 
 There are various portal related to agriculture for providing solutions to problem of farmers, but there are generalized solutions given to them mostly. Also, sometimes apps are dealing with one or two components of farming only. So we are trying to integrate all these components int one and give detailed and scheduled solutions to farmers, integrating packages of practices. In this application real time info will be given to farmers from feild preparation to their predicted yield.
