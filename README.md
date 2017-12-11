@@ -12,7 +12,7 @@ There are various portal related to agriculture for providing solutions to probl
 
 The present Apps only give generalized option about crops and farmers but our app gives targeted ressult to farmers analysing their **S**oil **H**ealth **C**ard and predicting their yield per hectare if they follow our suggestion. 
 
-**Simply speaking our app leverages Soil Health Card information for farmers. The Soil Health card, issued by Govt. of India does not have much useful for information that farmers can directly use. Our app uses SH info and provides info like Variety, inter-crop, seed spacing and sowing period. Using these info we predict the yield and predicted profit to farmer using random forest model. Additionally we use low cost, low powered temp and humidity sensors deployed in the field for better real time analysis and prediction with cyclone or flood forecast.**
+**Simply speaking our app leverages Soil Health Card information for farmers. The Soil Health card, issued by Govt. of India does not have much useful for information that farmers can directly use. Our app uses SH info and provides info like Variety, inter-crop, seed spacing and sowing period. Using these info we predict the yield and predicted profit to farmer using random forest model. We also provide real time prediction of cyclone and flood to farmers.**
 
 Example of Soil Health Card
 ![SHC](http://www.soilhealth.dac.gov.in/Content/blue/soil/assets/img/slider/slider5.png)
