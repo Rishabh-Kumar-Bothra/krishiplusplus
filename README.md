@@ -1,7 +1,6 @@
 # Krishi++
 Krishi++ - Connecting farmers
 
-Website Link : https://api.combatant32.hasura-app.io/
 
 **Note**: _The website is not yet optimized for mobile devices(due to time constraints) and may give UI glitches on mobile devices. It works real fine on tablet or dektop computers._ 
 
